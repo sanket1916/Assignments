@@ -1,0 +1,312 @@
+﻿/*Sanket*/
+body {
+    /*background-color: #F4F6F8;*/
+    color: #34404B;
+    font-size: 0.9rem;
+}
+
+.bg-white {
+    background-color: #fff!important;
+}
+.bg-black {
+    background-color: #000!important;
+}
+.bg-gray {
+    background-color: #F2F2F2 !important;
+}
+.text-dark {
+    color: #34404B;
+}
+.text-orange {
+    color: #FF5912;
+}
+
+.font-weight-400 {
+    font-weight: 400 !important;
+}
+/*navbar*/
+.navbar {
+    background-color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #34404B;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #FF5912;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link.active:after {
+    content: '';
+    display: inline-block;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7px;
+    left: 9px;
+    width: 30%;
+    background-color: #FF5912;
+}
+
+/*buttons*/
+.btn-style1 {
+    background-color: #fff;
+    border: 1px solid #FF5912;
+}
+
+.btn-orange {
+    background-color: #FF5912;
+    color: #fff;
+    border-radius: 3px;
+
+}
+
+.btn-orange:hover {
+    background-color: #e97a44;
+    color: #fff;
+}
+
+/*Body*/
+.part-1 {
+    background-image: url('../images/Assets/Banner_Base_White.png');
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.part-2, .part-4, .part-6 {
+    min-height: 300px;
+    background-color: #F4F6F8;
+}
+.part-6 {
+    min-height: 200px;
+} 
+
+.caption-1, .caption-2, .div-inner {
+    max-width: 800px;
+}
+.div-inner {
+    margin: 0 auto;
+}
+
+.codechef-bg {
+    background-image: url('../images/Assets/Chef@2x.png');
+    background-repeat: no-repeat;
+    width: 185px;
+    height: 150px;
+    position: absolute;
+    right: 15px;
+    top: -150px;
+}
+
+.nav-tabs .nav-link {
+    background: none;
+    border: 0;
+    color: #FF5912;
+    padding: .5em 1.5rem .5em 0;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: none;
+    border: 0;
+    color: #34404B;
+    position: relative;
+}
+
+.nav-tabs .nav-link.active:after {
+    content: '';
+    display: inline-block;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 0rem;
+    width: 25%;
+    background-color: #FF5912;
+}
+
+.price-tag-wrapper {
+    background-image: url(../images/Assets/Path_1381.png);
+    width: 267px;
+    height: 87px;
+    position: relative;
+    left: -26px;
+    padding: 8px 10px 8px 46px;
+}
+
+.cancelled-price::after {
+
+    content: '';
+    border-bottom: 2px solid;
+    position: absolute;
+    width: 100%;
+    left: -2px;
+    top: 8px;
+    -webkit-transform: rotateZ(169deg);
+    transform: rotateZ(169deg);
+}
+
+.carousel-control-next, .carousel-control-prev {
+
+    width: auto;
+}
+.carousel-control-prev-icon {
+    background-image: url('../images/Assets/Arrow-Previous@2x.png');
+    height: 58px;
+    width: 58px;
+    top: calc(50% - 29px);
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/Assets/Arrow-Next@2x.png');
+    height: 58px;
+    width: 58px;
+    top: calc(50% - 29px);
+}
+
+.tst-wrap {
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+
+.test-image {
+    max-width: 100%;
+    width: 85px;
+}
+
+.test-img {
+    width: 75px;
+    position: absolute;
+    left: -105px;
+    bottom: 40px;
+}
+
+.dev-img {
+    width: 75px;
+}
+ 
+ 
+ .hr1 {
+    border-bottom: 1px solid #34404B;
+}
+.dev-team {
+    background: rgb(247,247,247);
+    background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(241,241,241,1) 50%, rgba(255,255,255,1) 50%, rgba(246,246,246,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%,rgba(241,241,241,1) 50%,rgba(255,255,255,1) 50%,rgba(246,246,246,1) 100%);
+    background: linear-gradient(to right, rgba(247,247,247,1) 0%,rgba(241,241,241,1) 50%,rgba(255,255,255,1) 50%,rgba(246,246,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f6f6f6',GradientType=1 );
+    border: 1px solid #CBCBCB;
+}
+
+
+.dot {
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: #CECECE;
+}
+.dot-blue {
+    background-color: #387FCB;
+}
+
+.dot-red {
+    background-color: #E81C1C;
+}
+
+.dot-orange {
+    background-color: #E86A1C;
+}
+
+.dot-yellow {
+    background-color: #F7CE44;
+}
+
+.social-icons img{
+    height: 18px;
+}
+.nav-link-footer {
+    color: #34404B;
+}
+
+.nav-link-footer.active {
+    color: #FF5912;
+}
+/*Media Queries*/
+@media screen and (max-width: 576px) {
+    .part-1 {
+        min-height: 400px;
+    }
+
+    .codechef-bg {
+        background-image: url('../images/Assets/Chef.png');
+        background-repeat: no-repeat;
+        width: 93px;
+        height: 75px;
+        position: absolute;
+        right: 15px;
+        top: -75px;
+    }
+
+    .price-tag-wrapper {
+        background-image: url(../images/Assets/Path1.png);
+        width: 141px;
+        height: 150px;
+        position: relative;
+        left: 0px;
+        padding: 35px 12px 10px 12px;
+        line-height: 120%;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url('../images/Assets/Arrow-Previous.png');
+        height: 29px;
+        width: 29px;
+        top: calc(50% - 14px);
+    }
+
+    .carousel-control-next-icon {
+        background-image: url('../images/Assets/Arrow-Next.png');
+        height: 29px;
+        width: 29px;
+        top: calc(50% - 14px);
+    }
+    .user-name {
+        margin-left: 35px;
+    }
+    .test-image {
+        max-width: 100%;
+        width: 60px;
+    }
+
+    .test-img {
+        width: 75px;
+        position: absolute;
+        left: -89px;
+        bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+        
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+
+}
+@media screen and (min-width: 1400px) {
+    body {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+}
